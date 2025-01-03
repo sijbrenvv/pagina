@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sijbrenvv.github.io/pagina/sitemap.xml
