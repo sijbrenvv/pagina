@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10721dfc-2ccd-45c4-9d91-73833e9759fd" name="Default Changelist" comment="Rebuild the site and push Docs folder." />
+    <list default="true" id="10721dfc-2ccd-45c4-9d91-73833e9759fd" name="Default Changelist" comment="Rebuild the site and push Docs folder.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config/_default/config.toml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +56,7 @@
       <workItem from="1735997685205" duration="4456000" />
       <workItem from="1736342200715" duration="6025000" />
       <workItem from="1736513502919" duration="7727000" />
-      <workItem from="1736540823047" duration="3255000" />
+      <workItem from="1736540823047" duration="4216000" />
     </task>
     <task id="LOCAL-00001" summary="Add gh-pages.yml: Depoly initial website.">
       <created>1735933735842</created>
@@ -125,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736543939967</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Rebuild the site and push Docs folder.">
+      <created>1736544276407</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1736544276407</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
