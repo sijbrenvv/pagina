@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10721dfc-2ccd-45c4-9d91-73833e9759fd" name="Default Changelist" comment="Initialise and update submodule.">
+    <list default="true" id="10721dfc-2ccd-45c4-9d91-73833e9759fd" name="Default Changelist" comment="Change publish branch and dir to main and /docs.">
       <change beforePath="$PROJECT_DIR$/.github/workflows/gh-pages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/gh-pages.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/_default/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config/_default/config.toml" afterDir="false" />
@@ -57,7 +57,7 @@
       <workItem from="1735997685205" duration="4456000" />
       <workItem from="1736342200715" duration="6025000" />
       <workItem from="1736513502919" duration="7727000" />
-      <workItem from="1736540823047" duration="5281000" />
+      <workItem from="1736540823047" duration="5505000" />
     </task>
     <task id="LOCAL-00001" summary="Add gh-pages.yml: Depoly initial website.">
       <created>1735933735842</created>
@@ -150,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736545654482</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Change publish branch and dir to main and /docs.">
+      <created>1736546194334</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1736546194334</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +200,7 @@
     <MESSAGE value="Rebuild the site and push Docs folder." />
     <MESSAGE value="Update publishDir in config.toml and push Docs folder." />
     <MESSAGE value="Initialise and update submodule." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialise and update submodule." />
+    <MESSAGE value="Change publish branch and dir to main and /docs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change publish branch and dir to main and /docs." />
   </component>
 </project>
