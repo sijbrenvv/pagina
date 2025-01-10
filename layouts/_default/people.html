@@ -1,0 +1,26 @@
+{{ define "main" }}
+<section class="people">
+    <h1 class="page-title">{{ .Title }}</h1>
+
+
+    {{ if .Content }}
+    <div class="intro-text">
+        {{ .Content }}
+    </div>
+    {{ end }}
+
+    <div class="people-list">
+        {{ range site.Data.people }}
+        <div class="person">
+            <img src="{{ .photo }}" alt="{{ .name }}" class="person-photo" />
+            <div class="person-details">
+                <h2>{{ .name }}</h2>
+                <p class="role">{{ .role }}</p>
+                <p>{{ .bio }}</p>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+
