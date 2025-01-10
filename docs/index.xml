@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Promoting the Application of Generative AI for Improved News Accessibility on PAGINA</title>
-    <link>http://localhost:1313/pagina/</link>
+    <link>https://sijbrenvv.github.io/pagina/</link>
     <description>Recent content in Promoting the Application of Generative AI for Improved News Accessibility on PAGINA</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/pagina/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sijbrenvv.github.io/pagina/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Our beautiful team and partners</title>
-      <link>http://localhost:1313/pagina/people/</link>
+      <link>https://sijbrenvv.github.io/pagina/people/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pagina/people/</guid>
+      <guid>https://sijbrenvv.github.io/pagina/people/</guid>
       <description></description>
     </item>
   </channel>
