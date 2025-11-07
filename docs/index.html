@@ -10,7 +10,7 @@
   lang="en"
   dir="ltr"
   class="scroll-smooth"
-  data-default-appearance="dark"
+  data-default-appearance="light"
   data-auto-appearance="true"
 ><head>
 	<meta name="generator" content="Hugo 0.140.2">
@@ -212,7 +212,7 @@
                   
                   ><span
                       class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                      >Papers</span
+                      >Publications</span
                     >
                   </a
                 >
@@ -229,6 +229,22 @@
                   ><span
                       class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
                       >Events</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/pagina/contact/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Contact</span
                     >
                   </a
                 >
@@ -287,6 +303,99 @@
 <p>The PAGINA project is a <a href="https://www.clicknl.nl/en/pps/" target="_blank" rel="noreferrer">ClickNL PPP grant</a>-funded project led by the <a href="https://www.rug.nl/research/clcg/research/cl/" target="_blank" rel="noreferrer">Computational Linguistics group</a> of the University of Groningen aimed at bridging the gap between journalism and citizens.
 In collaboration with <a href="https://dvhn.nl/" target="_blank" rel="noreferrer">Dagblad van het Noorden</a>, <a href="https://8d.nl/" target="_blank" rel="noreferrer">8D</a>, and <a href="https://www.aihub-noord.nl/en/" target="_blank" rel="noreferrer">AI Hub North</a>, this research will develop AI tools to improve Dutch news accessibility and readability for those who struggle with traditional news formats, specifically for low-literate demographics, through simplifying, summarising, and altering the perspective and frame of a given text. Additionally, these tools will help journalists to better understand readers’ experiences.</p>
 <p>The project aims to equip journalists with technology, integrating it into their creative process and establishing a framework that other news organisations can adopt. Field testing will involve low-literate citizens to ensure the tools are effective in meeting their needs and promoting more inclusive news consumption.</p>
+<!-- Current research, what we are working on -->
+<section class="mt-12">
+  <h2 class="text-2xl font-semibold mb-4">Current Work</h2>
+  <ul class="space-y-3">
+    <li> Assessing the relationship between readability and real-world reading times</li>
+    <li> Creating a dataset of original and corresponding simplified (Dutch) news articles</li>
+    <li> Exploring ways to disentangle reader interest from text complexity in reading times</li>
+  </ul>
+</section>
+<!-- Latest publications -->
+<!-- <section class="mt-12">
+  <h2 class="text-2xl font-semibold mb-4">Recent Publications</h2>
+  <ul>
+    {{ range first 3 (where .Site.RegularPages "Section" "publications") }}
+      <li class="mb-3">
+        <a href="{{ .RelPermalink }}" class="text-primary-600 hover:underline">{{ .Title }}</a><br>
+        <span class="text-sm text-surface-600 dark:text-surface-400">{{ .Params.authors }} — {{ .Params.year }}</span>
+      </li>
+    {{ end }}
+  </ul>
+  <a href="/publications/" class="inline-block mt-4 text-primary-600 hover:underline">View all publications →</a>
+</section> -->
+<!-- Research areas -->
+<section class="mt-12">
+  <h2 class="text-2xl font-semibold mb-6">Research Areas</h2>
+  <div class="grid sm:grid-cols-2 gap-6">
+    <div class="p-6 rounded-xl bg-surface-100 dark:bg-surface-800 shadow-sm">
+      <h3 class="font-semibold mb-2">Text Accessibility</h3>
+      <p class="text-surface-700 dark:text-surface-300"> Our main focus is text accessibility, where we use AI/NLP-driven methods to automatically improve the accessibility of Dutch news, specifically for low-literate audiences.</p>
+    </div>
+    <div class="p-6 rounded-xl bg-surface-100 dark:bg-surface-800 shadow-sm">
+      <h3 class="font-semibold mb-2">Readability</h3>
+      <p class="text-surface-700 dark:text-surface-300"> We aim to achieve higher accessibility via improving the readability of a text. For example by the two approaches below. Higher readability entails that a text is easier or quicker to read, due to lower processing loads.</p>
+    </div>
+    <div class="p-6 rounded-xl bg-surface-100 dark:bg-surface-800 shadow-sm">
+      <h3 class="font-semibold mb-2">Text Simplification</h3>
+      <p class="text-surface-700 dark:text-surface-300"> Exploring the use of automatic text simplification to reduce the complexity of a text, so it becomes more comprehensible to the wider public.</p>
+    </div>
+    <div class="p-6 rounded-xl bg-surface-100 dark:bg-surface-800 shadow-sm">
+      <h3 class="font-semibold mb-2">Perspective Detection and Alteration</h3>
+      <p class="text-surface-700 dark:text-surface-300"> Exploring the detection of the perspective or frame of a text to change it in such a way that the general public or a specific target group feels seen, heard, and more included.</p>
+    </div>
+  </div>
+</section>
+<!-- About us  -->
+<section class="mt-12">
+  <h2 class="text-2xl font-semibold mb-4">About Us</h2>
+  <p class="max-w-2xl mx-auto text-surface-700 dark:text-surface-300">
+    The PAGINA project is driven by the Computational Linguistics research group at the University of Groningen, in which we collaborate with a regional newspaper, a design company, and an AI application institution.
+  </p>
+    <a
+  class="inline-block !rounded-md bg-primary-600 px-4 py-1 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+  href="people/"
+  target="_blank"
+  
+  role="button"
+>
+  
+    Learn More
+    
+</a>
+
+</section>
+<!-- Latest updates -->
+<!--<section class="mt-12">
+  <h2 class="text-2xl font-semibold mb-4">News</h2>
+  <ul>
+    {{ range first 3 (where .Site.RegularPages "Section" "updates") }}
+      <li class="mb-3">
+        <a href="{{ .RelPermalink }}" class="text-primary-600 hover:underline">{{ .Title }}</a>
+        <span class="text-sm text-surface-500 dark:text-surface-400"> — {{ .Date.Format "Jan 2006" }}</span>
+      </li>
+    {{ end }}
+  </ul>
+  <a href="/news/" class="inline-block mt-4 text-primary-600 hover:underline">More news →</a>
+</section> -->
+<!-- Contact -->
+<section class="mt-16 bg-surface-100 dark:bg-surface-800 rounded-2xl p-10 shadow-sm">
+  <h2 class="text-2xl font-semibold mb-2">Collaborate with Us</h2>
+  <p class="text-surface-700 dark:text-surface-300 mb-6">We are always open to new collaborations and ideas.</p>
+    <a
+  class="inline-block !rounded-md bg-primary-600 px-4 py-1 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+  href="contact/"
+  target="_blank"
+  
+  role="button"
+>
+  
+    Get in Touch
+    
+</a>
+
+</section>
 </section>
 </article>
 <section>
